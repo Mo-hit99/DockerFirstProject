@@ -9,6 +9,7 @@ services:
   node-mohit-app:
     build:
       context: .
+    image: mohitkohli007/node-app
     environment:
       - PORT=4000
     depends_on:
